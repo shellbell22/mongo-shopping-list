@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: TtD8okFTFLKiKn5GR4OF7VfgBb32md5zhMPqTVAPgaIc4OYttexWyYFDJNtpj964xoKuKCxK0EogOT9e9qj86fDZ6rClS9bjXVcBCg4AaZoYSXYTTou//Leto2WGyy34K1WyzbypvEd5OwcbXw77B7yeon4Sh7Pa3yY9p6qwkw+ZLMlp1sqrbJAna6e1Ze2AsRn8bOnqSXTHHN3CReHdYg3tMcbhrX+y9wxF5rMjPtFL4PC+cXlDammbMxTSh3cvTEL8ft4sUB23vxu5nuNEOYLbiGuHIvhkifUpmMDuN+zk30DlqcoSeje6wHN6aBL7b72vY9WBm+DLivWigUzgKin9SGCT1ZKRET/G5hmEbHsElrnzkB/xXiLq+4fK3FrAC4U6gJ/L+G69zZrPn0AwiVqTuwJhVhVITZVpj4grlngr1P7tueOX+i61mGNg/EaMaFyoMJ8VBG9k3iWlQ5q5rphBZ68TdjlP2nhRyvq984FyOt8K8/UylRVjS84Kd0Kuv7k/z4CfchbU0mt7a/BG3N4nZht8LL9JbepdIJROnAKu+4bC008Qrk+E0+8QP8QNAv8SNgFhy4KqOfiG3SA4K3/j7KYwi61q2VCVzyzm+KapCnh5yctvqbLoe5dEVG2YDHJ2DtePev5WGXArv3nVavzG4PIE4L2QBgdoscnP9ww=
+  app: calm-river-39898
+  on:
+    repo: shellbell22/mongo-shopping-list
